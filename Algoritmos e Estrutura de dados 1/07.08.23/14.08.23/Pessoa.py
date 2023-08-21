@@ -4,5 +4,14 @@ class Pessoa:
     def __init__(self):
         #construir os atributos tal como definir seus valores
         #teste 
-        print("obj instanciado")
+        print("Objeto instanciado")
+        self.nome = name
+        self.idade = idade
+
+    def imprimir(self):
+        print("Nome: " , self.nome)
+        print("Idade: " , self.idade)
+
+        
+        
         
